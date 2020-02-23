@@ -1,0 +1,18 @@
+In tutorial 26 even in case 1:27 have the following problem:
+
+C:\Program Files\nodejs\node.exe src\moduleB.js
+c:\Users\iaros\OneDrive\Desktop\ESModules\src\moduleB.js:4
+ export {fname,lname}
+ ^^^^^^
+
+SyntaxError: Unexpected token 'export'
+    at wrapSafe (internal/modules/cjs/loader.js:1072:16)
+    at Module._compile (internal/modules/cjs/loader.js:1122:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+
+
+Do you know what to do in this case?
