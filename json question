@@ -1,0 +1,21 @@
+In the file "tasks.json" for first tutorials with the text:
+
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "tsc",
+    "isShellCommand":true,
+    "args": ["-w","-p","."],
+    "showOutput": "silent",
+    "isWatching": true,
+    "problemMatcher": "$tsc-watch"   
+}
+
+these lines are underlined:
+"isShellCommand":true,
+ "showOutput": "silent",
+    "isWatching": true,
+    
+with the following problem: "The property showOutput (and so on) is deprecated. 
+Use the reveal property inside the presentation property instead. See also the 1.14 release notes."
